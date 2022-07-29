@@ -1,5 +1,5 @@
 {
-  "name": "gray-matter",
+  "name": "gray-matter-browser",
   "description": "Parse front-matter from a string or file. Fast, reliable and easy to use. Parses YAML front matter by default, but also has support for YAML, JSON, TOML or Coffee Front-Matter, with options to set custom delimiters. Used by metalsmith, assemble, verb and many other projects.",
   "version": "4.0.3",
   "homepage": "https://github.com/jonschlinkert/gray-matter",
@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "files": [
-    "gray-matter.d.ts",
+    "index.d.ts",
     "index.js",
     "lib"
   ],
@@ -88,7 +88,7 @@
   "browser": {
     "fs": false
   },
-  "typings": "gray-matter.d.ts",
+  "typings": "index.d.ts",
   "eslintConfig": {
     "rules": {
       "no-console": 0

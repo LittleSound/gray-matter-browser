@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "files": [
-    "gray-matter.d.ts",
+    "index.d.ts",
     "index.js",
     "lib"
   ],
@@ -84,7 +84,7 @@
     "yaml",
     "yfm"
   ],
-  "typings": "gray-matter.d.ts",
+  "typings": "index.d.ts",
   "ignore": [
     "actual",
     "bower_components",
@@ -104,7 +104,7 @@
       }
     }
   },
-  "types": "gray-matter.d.ts",
+  "types": "index.d.ts",
   "browser": {
     "fs": false
   },
